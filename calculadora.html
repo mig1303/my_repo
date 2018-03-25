@@ -13,6 +13,14 @@ function cube() {
 	var num = document.getElementById("n1");
 	num.value = Math.pow(num.value,3);
 }
+
+
+function sin() {
+
+	var num = document.getElementById("n1");
+	num.value = Math.sin(num.value);
+}
+
 </script>
 
 </head>
@@ -20,7 +28,7 @@ function cube() {
 	Numero:
 	<input type="text" id="n1"><p>
 	<button onclick="cube()">x<sup>3</sup></button>
-
+    <button onclick="sin()">sin(x)</button>
 </body>
 
 <h1>Calculadora de Miguel Angel Castro</h1>
